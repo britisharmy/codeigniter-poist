@@ -17,5 +17,23 @@ sudo apt-get install phpmyadmin
 
 # Phpmyadmin 404 Fix
 
+Open apache.conf using your favorite editor
+
+```
+sudo vim /etc/apache2/apache2.conf
+```
+
+Then add the following line:
+
+```
+Include /etc/phpmyadmin/apache.conf 
+```
+
+# Reload Apache
+
+```
+sudo /etc/init.d/apache2 reload
+```
+
 
 
