@@ -1,4 +1,4 @@
-# codeigniter-poist
+# Codeigniter Poist
 A simple codeigniter project making use of poist
 
 # Install Php
